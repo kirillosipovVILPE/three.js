@@ -18,8 +18,8 @@
 
 		<script type="importmap">
 			{
-				"imports": {
-					"three": "https://github.com/kirillosipovVILPE/three.js/blob/dev/build/three.module.js"
+				"imports": { 
+					"three": "https://raw.githubusercontent.com/kirillosipovVILPE/three.js/dev/build/three.module.js"
 				}
 			}
 		</script>
@@ -28,10 +28,10 @@
 
 			import * as THREE from 'three';
 
-			import Stats from 'https://github.com/kirillosipovVILPE/three.js/blob/dev/examples/js/libs/stats.min.js';
+			import Stats from 'https://raw.githubusercontent.com/kirillosipovVILPE/three.js/dev/examples/js/libs/stats.min.js';
 
-			import { OrbitControls } from 'https://github.com/kirillosipovVILPE/three.js/blob/dev/examples/js/controls/OrbitControls.js';
-			import { FBXLoader } from 'https://github.com/kirillosipovVILPE/three.js/blob/dev/examples/js/loaders/FBXLoader.js';
+			import { OrbitControls } from 'https://raw.githubusercontent.com/kirillosipovVILPE/three.js/dev/examples/js/controls/OrbitControls.js';
+			import { FBXLoader } from 'https://raw.githubusercontent.com/kirillosipovVILPE/three.js/dev/examples/js/loaders/FBXLoader.js';
 
 			let camera, scene, renderer, stats;
 
@@ -82,7 +82,7 @@
 
 				// model
 				const loader = new FBXLoader();
-				loader.load( 'https://github.com/kirillosipovVILPE/vilpe/blob/master/Fastener.FBX', function ( object ) {
+				loader.load( 'https://raw.githubusercontent.com/kirillosipovVILPE/vilpe/blob/master/Fastener.FBX', function ( object ) {
 
 					mixer = new THREE.AnimationMixer( object );
 
